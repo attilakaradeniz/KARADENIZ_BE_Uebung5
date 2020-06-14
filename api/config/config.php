@@ -6,6 +6,7 @@ include "controller/FlightsController.php";
 include "services/DatabaseService.php";
 include "model/DBGatewayModel.php";
 include "model/FlightsModel.php";
+include "model/PassengersModel.php";
 include "view/JsonView.php";
 
 define("DBHost", "localhost");

@@ -13,7 +13,7 @@ class DatabaseService
 
         try {
             $table = $this->db->query($statement, PDO::FETCH_ASSOC);
-            foreach ($table as $row){
+            foreach ($table as $key => $row){
                 $resultTable[] = $row;
             }
         }
