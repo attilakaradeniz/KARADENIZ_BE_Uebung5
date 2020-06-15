@@ -4,6 +4,7 @@
     <list default="true" id="aae79102-1825-4ac6-85bf-2501de695268" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controller/FlightsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/controller/FlightsController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1clualc2ZOoz9AV5K9J7Kv21nBh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,6 +28,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
@@ -47,6 +52,7 @@
       <workItem from="1591212879008" duration="1091000" />
       <workItem from="1591253831669" duration="1100000" />
       <workItem from="1592119782882" duration="11650000" />
+      <workItem from="1592215039006" duration="4227000" />
     </task>
     <servers />
   </component>
