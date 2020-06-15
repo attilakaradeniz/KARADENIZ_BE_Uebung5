@@ -7,7 +7,8 @@ class JsonView
         header('Content-Type: application/json');
     }
 
-    public function output($data){
+    public function output($data)
+    {
         $jsonOutput = json_encode($data);
         echo $jsonOutput;
     }

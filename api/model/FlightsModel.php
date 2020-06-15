@@ -6,9 +6,9 @@ class FlightsModel
     private $dbGateway;
 
     public function __construct()
-      {
-          $this->dbGateway = new DBGatewayModel();
-      }
+    {
+        $this->dbGateway = new DBGatewayModel();
+    }
 
     public function getFlights()
     {

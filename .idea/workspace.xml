@@ -4,6 +4,10 @@
     <list default="true" id="aae79102-1825-4ac6-85bf-2501de695268" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/controller/FlightsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/controller/FlightsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/model/DBGatewayModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/model/DBGatewayModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/model/FlightsModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/model/FlightsModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/services/DatabaseService.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/services/DatabaseService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/view/JsonView.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/view/JsonView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
