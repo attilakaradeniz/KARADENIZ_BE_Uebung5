@@ -17,7 +17,15 @@ class FlightsController
             {
                 case 'GET-FLIGHTS' :
                     // echo "case: get flights"; // TEST
-                    $this->showFlights();
+                    //$this->showFlights(); // WORKING VERSION --------------------------------------------------------------
+                    $flightsFormatted = [];
+                    $flights = $this->showFlights();
+                    //print_r($flights); // TEST
+                    foreach ($flights as $flight){
+                        $flightsFormatted['flights'][] = array('flightId:' => $flight['id'], 'name:' => $flight['flightname'], 'url' => $flight['url']);
+
+                    }
+                    $this->jsonView->output($flightsFormatted);
                     break;
 
                 case 'GET-PASSENGERS' :
@@ -28,7 +36,7 @@ class FlightsController
                 if(!$flightId)
                 {
                     $this->jsonView->output(
-                        ["An error occurred:" => "You have to specify a flight id for the respective passenger list",
+                        ["An error occurred:" => "You have to provide a flight id for the respective passenger list",
                         "After GET_PASSENGERS provide an id with the parameter prefix {flightId} like this:" => "&flightId={id}"]);
                 }
                 else
@@ -72,7 +80,8 @@ class FlightsController
             {
                 $flight['url'] = $url . $flight['id'];
             }
-            $this->jsonView->output($flights);
+            //$this->jsonView->output($flights); // WORKING V
+            return $flights;
         }
 
         public function showPassengers($flightId)
